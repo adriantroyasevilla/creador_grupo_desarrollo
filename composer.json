@@ -1,0 +1,20 @@
+{
+    "name": "adrian/PLANTILLA",
+    "description": "",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Adrian Troya",
+            "email": "atsvex94@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "models\\" : "models/"
+        }
+    },
+
+
+    "require": {}
+}
