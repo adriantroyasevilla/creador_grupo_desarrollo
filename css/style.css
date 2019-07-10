@@ -1,0 +1,13 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.margenVertical{
+    height: 2.5rem;
+}
