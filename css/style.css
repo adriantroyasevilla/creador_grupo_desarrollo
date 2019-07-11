@@ -1,13 +1,40 @@
-h1{
-    font-size: 30px;
-    text-align: center;
+body{
+    padding: 2%;
+    font-size: 24px;
+    font-family: arial;
 }
 
-form{
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(31, 31, 31);
+}
+
+.zonaCentral{
     display: flex;
     justify-content: center;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.boton_submit{
+    width: 80px;
+    height: 25px;
+}
+
 .margenVertical{
     height: 2.5rem;
+}
+
+.margenVertical2{
+    height: 0.5rem;
 }

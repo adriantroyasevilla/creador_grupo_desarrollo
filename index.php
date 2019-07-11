@@ -21,10 +21,10 @@
     </header>
 <div class="margenVertical"></div>
     <!-- SECTION -->
-    <section>
-        <form action="random.php" method="post">
+    <section class="zonaCentral">
+        <form class="formulario" action="resultado.php" method="post">
 
-            <select name="especialidad">
+            <select name="especialidad" required>
                 <option selected="true" disabled="disabled">Selecciona una especialidad</option>
                 <option value="HTML5/CSS3">HTML5/CSS3</option>
                 <option value="Javascript">Javascript</option>
@@ -35,10 +35,13 @@
                 <option value="Sass/Less">Sass/Less</option>
                 <option value="Laravel">Laravel</option>
             </select>
-
-            <input type="number" name="cantidad" placeholder = 'nº personas' required>
-            <button type="submit">RANDOM</button>
-        </form>
+            <div class="margenVertical2"></div>
+            <input type="number" name="numPersonas" placeholder = 'nº personas' required>
+            <div class="margenVertical2"></div>
+            <div class="boton">
+            <button class="boton_submit" type="submit">RANDOM</button>
+            </div>
+        </form>   
     </section>
 
 </body>
